@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class TestSolution {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
+        // algorithm 1
         System.out.print("Enter a number: ");
         int number = scanner.nextInt();
         scanner.nextLine();
@@ -11,7 +11,7 @@ public class TestSolution {
         if (number > 7) {
             System.out.println("Hello");
         }
-
+        // algorithm 2
         System.out.print("Enter a name: ");
         String name = scanner.nextLine();
 
@@ -20,7 +20,7 @@ public class TestSolution {
         } else {
             System.out.println("There is no such name");
         }
-
+        // algorithm 3
         System.out.print("Enter the size of the array: ");
         int size = scanner.nextInt();
 
